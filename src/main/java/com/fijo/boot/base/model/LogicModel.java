@@ -1,0 +1,47 @@
+/*
+ *
+ */
+package com.fijo.boot.base.model;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
+import java.time.LocalDateTime;
+
+/**
+ * 用途：逻辑实体
+ * 作者: zhangbo
+ * 时间: 2018/1/30  21:51
+ */
+@EqualsAndHashCode(callSuper = true)
+@MappedSuperclass
+public abstract class LogicModel extends SystemModel {
+
+    @Setter
+    @Getter
+    @Column(nullable = false)
+    //是否可用
+    private Boolean enabled = true;
+
+    @Setter
+    @Getter
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private LocalDateTime removedTime;
+
+    @Setter
+    @Getter
+    @Column(nullable = false, updatable = false)
+    //创建人 CREATOR
+    private String creator;
+
+    @Setter
+    @Getter
+    @Column(nullable = false)
+    //更新人 MODIFIER
+    private String modifier;
+
+}

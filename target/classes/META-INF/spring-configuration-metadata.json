@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.fijo.boot.config.DataSourceConfiguration",
+      "name": "spring.datasource.druid",
+      "sourceMethod": "defaultDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
