@@ -13,7 +13,7 @@
   <artifactId>fijo-boot-cores</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
-
+    
   <name>${project.artifactId}</name>
   <description>Fijo Spring Boot Cores</description>
 
