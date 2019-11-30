@@ -15,7 +15,7 @@ import java.util.Date;
  */
 @Data
 @MappedSuperclass
-public abstract class GenericModel implements Serializable, Comparable {
+public abstract class GenericModel{
 
     @Column(name = "CREATE_TIME")
     private String createTime;//创建日期
