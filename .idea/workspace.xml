@@ -2,7 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a4eea7-2c94-4ab7-81a2-0d04a17e7eea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/ModularEnum/EntEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/EditEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/FileAttrEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/HonoraryEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/NumberEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/ResultRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/StateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/StatueEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/SysLogEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/GlobalExceptionRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/RestControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/LogicModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/SystemModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/BaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/Condition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomDynamicWhere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomJpaRepositoryFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/GenericRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicDeleteRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/SystemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/ILogicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/ISystemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/LogicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/SystemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/LogicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/filter/CsrfProtectFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/converter/StringToDateConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedLockCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedLockFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedLockTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedRedisLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/RedisTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/SingleDistributedLockTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/DataSourceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/DruidConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/EmbeddedServletConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/ExtraConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/Initializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/JacksonConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/MultipartConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/ScheduledTaskConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/Swagger2Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/Swagger2CsrfProtection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/WebControllerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/WebMvcConfigSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/constants/HttpConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/AccesssAppDeniedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/AttempMaxLoginFaildException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/IdGeneratorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/InsertExistObjectException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/UpdateNotExistObjectException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/templates/MessageEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/templates/MessageOperatorUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/FSearchListTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/PaginationHelp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/UrlFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/distribution/id/IdGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/MochaEncryptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/GetJsonRequestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/JacksonCustomDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/JacksonCustomSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/JacksonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/server/HostUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/server/SocketUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/exclude/web/GlobalErrorController.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,94 +94,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Fijo-Boot-Cores" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BaseRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/BaseRepository.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="105" column="6" lean-forward="true" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+            <state relative-caret-position="228">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomDynamicWhere.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomDynamicWhere.java">
+      <file leaf-file-name="GenericController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="266">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomJpaRepositoryFactoryBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomJpaRepositoryFactoryBean.java">
+      <file leaf-file-name="GlobalWebRequestLogger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/GenericRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogicDeleteRepositoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicDeleteRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogicRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogicModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/LogicModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3257">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/SystemRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="-570">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +164,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/handle/SuccessLoginHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/LogicService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultUserDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java" />
       </list>
     </option>
   </component>
@@ -167,17 +208,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="391" />
-    <option name="y" value="40" />
-    <option name="width" value="1567" />
-    <option name="height" value="1007" />
+    <option name="x" value="-45" />
+    <option name="y" value="170" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,15 +250,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fijo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fijo" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,7 +257,119 @@
               <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
@@ -233,7 +377,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
@@ -243,20 +386,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15559895" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fijo.boot.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -329,37 +480,39 @@
       <workItem from="1559489754176" duration="113000" />
       <workItem from="1559489872133" duration="990000" />
       <workItem from="1559492302401" duration="498000" />
+      <workItem from="1575128870533" duration="1676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4879000" />
+    <option name="totallyTimeSpent" value="6555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13120951" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2450867" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3034557" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28455722" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Favorites" order="6" visible="true" weight="0.13294798" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -375,105 +528,142 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/enums/GenericEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/enums/SysPermissionType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/AbstractEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/Exceptions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/BigIntegerEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret lean-forward="true" />
+        <state relative-caret-position="209">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/GlobalExceptionRegister.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/Des3Encryptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="243">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/uums/api/app/UumsSysAppApi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/ws/interceptor/SoapLoggingInInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/ws/interceptor/SoapLoggingOutInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/ws/adapter/RelaxedXMLGregorianCalendarAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/controller/UumsHttpValidationAuthenticationController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/controller/CaptchaController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/controller/SessionController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/provider/sso/service/impl/RsaSsoAuthenticationServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/provider/GenericAuthenticationChecker.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/authentication/CasUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/authentication/principal/KeyTypePrincipal.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/authentication/principal/UsernamePrincipal.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/oauth2/CustomOauthException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/oauth2/CustomOauthExceptionSerializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/Oauth2ClientDetails.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/oauth2/CustomWebResponseExceptionTranslator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/handle/RestSuccessLoginHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/handle/RestSuccessLogoutHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/handle/SuccessLogoutHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/handle/SuccessLoginHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/controller/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/security/SecurityUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/security/LoginUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/security/acl/config/ACLConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/CustomBeanUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/Md5Encryptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#871#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/templates/MessageEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/exclude/web/GlobalErrorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="152" column="12" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/config/ApplicationServiceConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/component/task/AbstractTaskSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/captcha/SpecCaptcha.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/PaginationHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="228">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/FastDfsClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/LogicService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/RsaEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="243">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/ShaEncryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/UrlEncryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/WebOffice3Des.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/http/BrowserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/http/LocalHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/office/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/BootAppFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/CustomBeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ListUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/QrCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -484,87 +674,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/annotations/AnnotationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/Condition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/annotations/ConditionalOnPropertyNotEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomJpaRepositoryFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/annotations/EntityCnName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/annotations/ExcelVOAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/enums/SysPermissionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/GenericRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/enums/GenericEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="247">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicDeleteRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/enums/SysCustomFieldType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/GlobalExceptionRegister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-551">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/SystemRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/RestControllerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="-399">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/BaseRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="105" column="6" lean-forward="true" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+        <state relative-caret-position="-570">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomDynamicWhere.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/SystemModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="532">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/LogicModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="420">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/CustomJpaRepositoryFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/BaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/annotations/EntityIdPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/LogicDeleteRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6475">
+          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/LogicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/constants/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3257">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/LogicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultUserDto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/filter/CsrfProtectFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

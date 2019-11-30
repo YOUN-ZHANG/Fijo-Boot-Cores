@@ -3,7 +3,7 @@
  */
 package com.fijo.boot.base.web.log;
 
-import com.fijo.boot.util.server.HostUtil;
+//import com.fijo.boot.util.server.HostUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -55,7 +55,7 @@ public class GlobalWebRequestLogger {
         log.debug(LOGTAG + "URL : " + request.getRequestURL().toString());
         log.debug(LOGTAG + "HTTP_METHOD : " + request.getMethod());
 //        log.info("IP : " + request.getRemoteAddr());
-        log.debug(LOGTAG + "IP : " + HostUtil.getClientIpAddress(request));
+        //log.debug(LOGTAG + "IP : " + HostUtil.getClientIpAddress(request));
         log.debug(LOGTAG + "CLASS_METHOD : "
                 + joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName());
         log.debug(LOGTAG + "ARGS : " + Arrays.toString(joinPoint.getArgs()));

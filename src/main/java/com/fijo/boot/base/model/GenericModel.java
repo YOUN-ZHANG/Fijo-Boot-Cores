@@ -1,17 +1,8 @@
-/*
- *
- */
 package com.fijo.boot.base.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fijo.boot.constants.ApplicationConstants;
-import lombok.Getter;
-import lombok.Setter;
-import org.apache.commons.lang3.builder.CompareToBuilder;
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
-import org.apache.commons.lang3.builder.ToStringBuilder;
 
+import lombok.Data;
+import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Transient;
 import java.io.Serializable;
@@ -22,50 +13,34 @@ import java.util.Date;
  * 作者: zhangbo
  * 时间: 2018/1/30  21:47
  */
-@Setter
-@Getter
+@Data
 @MappedSuperclass
 public abstract class GenericModel implements Serializable, Comparable {
 
-    @Transient
-    //动态排序
-    private String orderByClause;
+    @Column(name = "CREATE_TIME")
+    private String createTime;//创建日期
+
+    @Column(name = "CREATE_USER_NAME")
+    private String createUserName;//创建人
+
+    @Column(name = "CREATE_USER_ID")
+    private Integer createUserId;//创建人ID
+
+    @Column(name = "UPDATE_TIME")
+    private String updateTime;//更新时间
+
+    @Column(name = "UPDATE_USER_NAME")
+    private String updateUserName;//更新人
+
+    @Column(name = "UPDATE_USER_ID")
+    private Integer updateUserId;//更新人ID
+
+    @Column(name = "ENABLED")
+    private String enabled;//是否有效
+
+    @Column(name = "REMOVED")
+    private String removed; //是否删除
 
     @Transient
-    //时间区间-开始时间
-    @JsonFormat(pattern = ApplicationConstants.FORMAT_DATE_TIME, timezone = ApplicationConstants.FORMAT_TIME_ZONE)
-    private Date ssDate;
-
-    @Transient
-    //时间区间-结束时间
-    @JsonFormat(pattern = ApplicationConstants.FORMAT_DATE_TIME, timezone = ApplicationConstants.FORMAT_TIME_ZONE)
-    private Date eeDate;
-
-    @Transient
-    //分页起始页码
-    private Integer pageIndex;
-
-    @Transient
-    //分页每页记录数
-    private Integer pagesize;
-
-    @Override
-    public String toString() {
-        return ToStringBuilder.reflectionToString(this);
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        return EqualsBuilder.reflectionEquals(this, o);
-    }
-
-    @Override
-    public int hashCode() {
-        return HashCodeBuilder.reflectionHashCode(this);
-    }
-
-    @Override
-    public int compareTo(Object obj) {
-        return CompareToBuilder.reflectionCompare(this, obj);
-    }
+    private String orderByClause;//排序问题
 }
