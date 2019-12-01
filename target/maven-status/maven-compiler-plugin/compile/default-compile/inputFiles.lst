@@ -12,7 +12,6 @@ F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\encrypt\AbstractE
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\CodeGenerator.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\ListUtil.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\encrypt\Base64Encryptor.java
-F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\QrCodeUtil.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\web\log\GlobalWebRequestLogger.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\enums\SysEnum\ResultRepeat.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\ReflectionUtils.java
@@ -27,7 +26,6 @@ F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\http\LocalHttpCli
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\dto\ResultUserDto.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\enums\GenericEnum.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\service\impl\GenericService.java
-F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\office\ExcelUtil.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\encrypt\UrlEncryptor.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\enums\SysEnum\NumberEnum.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\encrypt\ShaEncryptor.java
@@ -39,7 +37,6 @@ F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\enums\ModularEnum\EntE
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\web\request\ReqHeader.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\model\GenericModel.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\enums\SysEnum\EditEnum.java
-F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\web\response\JsonResponse.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\JsonUtil.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\encrypt\Md5Encryptor.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\annotations\ConditionalOnPropertyNotEmpty.java
@@ -50,7 +47,6 @@ F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\enums\SysEnum\SysLogEn
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\enums\SysCustomFieldType.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\enums\SysEnum\DocEnum.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\annotations\EntityIdPrefix.java
-F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\distribution\id\SnowflakeId.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\base\enums\SysPermissionType.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\encrypt\RsaEncryptor.java
 F:\源代码管理\Fijo-Boot-Cores\src\main\java\com\fijo\boot\util\CustomBeanUtil.java

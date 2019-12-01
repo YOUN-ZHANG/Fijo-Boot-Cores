@@ -15,7 +15,6 @@ com\fijo\boot\util\encrypt\WebOffice3Des.class
 com\fijo\boot\util\http\LocalHttpClient.class
 com\fijo\boot\enums\SysEnum\FileAttrEnum.class
 com\fijo\boot\base\web\controller\GenericController.class
-com\fijo\boot\util\distribution\id\SnowflakeId.class
 com\fijo\boot\base\annotations\AnnotationUtils.class
 com\fijo\boot\util\ObjectUtil.class
 com\fijo\boot\enums\ModularEnum\EntEnum.class
@@ -36,10 +35,7 @@ com\fijo\boot\base\web\log\GlobalWebRequestLogger.class
 com\fijo\boot\constants\AuthoritiesConstants.class
 com\fijo\boot\enums\SysEnum\StatueEnum.class
 com\fijo\boot\util\JsonUtil.class
-com\fijo\boot\util\QrCodeUtil.class
-com\fijo\boot\util\office\ExcelUtil.class
 com\fijo\boot\base\annotations\ExcelVOAttribute.class
-com\fijo\boot\base\web\response\JsonResponse.class
 com\fijo\boot\enums\SysEnum\ResultRepeat.class
 com\fijo\boot\util\ListUtil.class
 com\fijo\boot\base\enums\GenericEnum.class
@@ -65,5 +61,4 @@ com\fijo\boot\dto\ResultUserDto.class
 com\fijo\boot\util\encrypt\RsaEncryptor.class
 com\fijo\boot\base\enums\SysCustomFieldType.class
 com\fijo\boot\util\CustomBeanUtil.class
-com\fijo\boot\base\web\response\JsonResponse$JsonResponseBuilder.class
 com\fijo\boot\base\mapper\GenericMapper.class

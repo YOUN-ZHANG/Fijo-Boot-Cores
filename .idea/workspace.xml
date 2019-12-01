@@ -2,88 +2,534 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a4eea7-2c94-4ab7-81a2-0d04a17e7eea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/ModularEnum/EntEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/EditEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/FileAttrEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/HonoraryEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/NumberEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/ResultRepeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/SexEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/StateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/StatueEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/SysLogEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_55.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_junrar_junrar_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stuxuhai_jpinyin_1_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_wenhao_jpa_spec_3_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itext_asian_5_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_tool_xmlworker_5_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mzlion_easy_okhttp_1_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mzlion_easy_okhttp_1_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mzlion_mzlion_core_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mzlion_mzlion_core_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_simbest_PortalEncrypt_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_57.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_57.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_24_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_24_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_1_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_1_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_vfs2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_spring_boot_autoconfigure_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_spring_boot_autoconfigure_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_spring_boot_starter_jaxws_3_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_spring_boot_starter_jaxws_3_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_api_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_svn_commons_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_scm_maven_scm_provider_svnexe_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_FINAL.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_client_java_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_5_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_5_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_5_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_5_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_jdk8_1_3_0_Beta1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_jdk8_1_3_0_Beta1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_3_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_3_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_0_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_0_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__regexp_regexp_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/GlobalExceptionRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/RestControllerExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/LogicModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/SystemModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/BaseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/Condition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomDynamicWhere.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/CustomJpaRepositoryFactoryBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/GenericRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicDeleteRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/LogicRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/repository/SystemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/ILogicService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/ISystemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/LogicService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/SystemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/LogicController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/filter/CsrfProtectFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/converter/StringToDateConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedLockCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedLockFactoryBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedLockTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/DistributedRedisLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/RedisTestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/component/distributed/lock/SingleDistributedLockTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/DataSourceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/DruidConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/EmbeddedServletConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/ExtraConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/Initializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/JacksonConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/MultipartConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/ScheduledTaskConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/Swagger2Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/Swagger2CsrfProtection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/WebControllerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/config/WebMvcConfigSupport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/constants/HttpConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/AccesssAppDeniedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/AttempMaxLoginFaildException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/IdGeneratorException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/InsertExistObjectException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/exceptions/UpdateNotExistObjectException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/templates/MessageEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/templates/MessageOperatorUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/FSearchListTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/PaginationHelp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/UrlFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/distribution/id/IdGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/MochaEncryptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/GetJsonRequestUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/JacksonCustomDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/JacksonCustomSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/json/JacksonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/server/HostUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/server/SocketUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/exclude/web/GlobalErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbest-boot-cores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simbest-boot-cores.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/response/JsonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/QrCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/distribution/id/SnowflakeId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/office/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/AnnotationUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/ConditionalOnPropertyNotEmpty.OnPropertyNotEmptyCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/ConditionalOnPropertyNotEmpty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/EntityCnName.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/EntityIdPrefix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/ExcelVOAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/class-use/AnnotationUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/class-use/ConditionalOnPropertyNotEmpty.OnPropertyNotEmptyCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/class-use/ConditionalOnPropertyNotEmpty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/class-use/EntityCnName.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/class-use/EntityIdPrefix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/class-use/ExcelVOAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/annotations/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/GenericEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/SysCustomFieldType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/SysPermissionType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/class-use/GenericEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/class-use/SysCustomFieldType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/class-use/SysPermissionType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/enums/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/exception/Exceptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/exception/class-use/Exceptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/exception/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/exception/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/exception/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/exception/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/mapper/GenericMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/mapper/class-use/GenericMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/mapper/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/mapper/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/mapper/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/mapper/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/model/GenericModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/model/class-use/GenericModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/model/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/model/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/IGenericService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/class-use/IGenericService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/impl/GenericService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/impl/class-use/GenericService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/impl/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/impl/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/impl/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/impl/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/service/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/controller/GenericController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/controller/class-use/GenericController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/controller/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/controller/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/controller/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/controller/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/log/GlobalWebRequestLogger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/log/class-use/GlobalWebRequestLogger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/log/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/log/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/log/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/log/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/ReqHeader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/ReqParam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/class-use/ReqHeader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/class-use/ReqParam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/request/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/response/JsonResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/response/class-use/JsonResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/response/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/response/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/response/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/base/web/response/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/ApplicationConstants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/AuthoritiesConstants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/ErrorCodeConstants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/class-use/ApplicationConstants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/class-use/AuthoritiesConstants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/class-use/ErrorCodeConstants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/constants/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/ResultDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/ResultUserDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/class-use/ResultDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/class-use/ResultUserDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/dto/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/ModularEnum/EntEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/ModularEnum/class-use/EntEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/ModularEnum/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/ModularEnum/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/ModularEnum/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/ModularEnum/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/DocEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/DocTypeEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/EditEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/FileAttrEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/HonoraryEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/NumberEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/ResultEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/ResultRepeat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/SexEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/StateEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/StatueEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/SysLogEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/DocEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/DocTypeEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/EditEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/FileAttrEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/HonoraryEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/NumberEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/ResultEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/ResultRepeat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/SexEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/StateEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/StatueEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/class-use/SysLogEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/enums/SysEnum/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/BootAppFileReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/CodeGenerator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/CustomBeanUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/DateUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/JsonUtil.ParameterizedTypeImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/JsonUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/ListUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/ObjectUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/QrCodeUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/ReflectionUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/SpringContextUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/Captcha.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/Randoms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/class-use/Captcha.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/class-use/Randoms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/captcha/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/BootAppFileReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/CodeGenerator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/CustomBeanUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/DateUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/JsonUtil.ParameterizedTypeImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/JsonUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/ListUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/ObjectUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/QrCodeUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/ReflectionUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/class-use/SpringContextUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/distribution/id/SnowflakeId.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/distribution/id/class-use/SnowflakeId.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/distribution/id/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/distribution/id/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/distribution/id/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/distribution/id/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/AbstractEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/Base64Encryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/BigIntegerEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/Des3Encryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/Md5Encryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/RsaEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/ShaEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/UrlEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/WebOffice3Des.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/AbstractEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/Base64Encryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/BigIntegerEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/Des3Encryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/Md5Encryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/RsaEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/ShaEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/UrlEncryptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/class-use/WebOffice3Des.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/encrypt/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/BrowserUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/LocalHttpClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/class-use/BrowserUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/class-use/LocalHttpClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/http/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/office/ExcelUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/office/class-use/ExcelUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/office/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/office/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/office/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/office/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/xml/XMLConverUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/xml/class-use/XMLConverUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/xml/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/xml/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/xml/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/fijo/boot/util/xml/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/annotations/AnnotationUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/annotations/AnnotationUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/annotations/ConditionalOnPropertyNotEmpty$OnPropertyNotEmptyCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/annotations/ConditionalOnPropertyNotEmpty$OnPropertyNotEmptyCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/enums/GenericEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/enums/GenericEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/enums/SysCustomFieldType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/enums/SysCustomFieldType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/enums/SysPermissionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/enums/SysPermissionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/exception/Exceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/exception/Exceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/mapper/GenericMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/mapper/GenericMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/model/GenericModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/model/GenericModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/service/IGenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/service/IGenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/service/impl/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/service/impl/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/controller/GenericController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/controller/GenericController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/log/GlobalWebRequestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/log/GlobalWebRequestLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/request/ReqHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/request/ReqHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/request/ReqParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/request/ReqParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/response/JsonResponse$JsonResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/base/web/response/JsonResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/dto/ResultDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/dto/ResultDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/dto/ResultUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/dto/ResultUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/ModularEnum/EntEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/ModularEnum/EntEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/DocEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/DocEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/DocTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/DocTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/EditEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/EditEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/FileAttrEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/FileAttrEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/HonoraryEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/HonoraryEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/NumberEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/NumberEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/ResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/ResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/ResultRepeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/ResultRepeat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/SexEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/SexEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/StateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/StatueEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/StatueEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/SysLogEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/enums/SysEnum/SysLogEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/BootAppFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/BootAppFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/CustomBeanUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/CustomBeanUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/JsonUtil$ParameterizedTypeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/JsonUtil$ParameterizedTypeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/ListUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/ListUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/MapKeyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/MapKeyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/MapUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/MapUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/MapUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/MapUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/ObjectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/ObjectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/QrCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/ReflectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/SpringContextUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/SpringContextUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/captcha/Captcha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/captcha/Captcha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/captcha/Randoms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/captcha/Randoms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/distribution/id/SnowflakeId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/AbstractEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/AbstractEncryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/Base64Encryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/Base64Encryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/BigIntegerEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/BigIntegerEncryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/Des3Encryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/Des3Encryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/Md5Encryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/Md5Encryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/RsaEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/RsaEncryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/ShaEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/ShaEncryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/UrlEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/UrlEncryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/WebOffice3Des.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/encrypt/WebOffice3Des.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/http/BrowserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/http/BrowserUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/http/LocalHttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/http/LocalHttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/office/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/xml/XMLConverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fijo/boot/util/xml/XMLConverUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fijo-boot-cores-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fijo-boot-cores-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fijo-boot-cores.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,39 +544,75 @@
     <favorites_list name="Fijo-Boot-Cores" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="409">
+              <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java">
+      <file leaf-file-name="ReqHeader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/request/ReqHeader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalWebRequestLogger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GlobalWebRequestLogger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="-338">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/constants/ApplicationConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1520">
+              <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/MapUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ObjectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -141,6 +623,7 @@
     <findStrings>
       <find>lishuyi</find>
       <find>版权所有 © 北京晟壁科技有限公司 2008-2027。保留一切权利!</find>
+      <find>com.alibaba</find>
     </findStrings>
     <replaceStrings>
       <replace>zhangbo</replace>
@@ -163,18 +646,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/provider/GenericAuthenticationChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/security/auth/handle/SuccessLoginHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/LogicService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultUserDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/enums/SysEnum/DocEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -200,7 +683,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fijo-boot-cores" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fijo-boot-cores" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -208,17 +701,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-45" />
-    <option name="y" value="170" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +845,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
               <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,6 +881,16 @@
               <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="captcha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fijo-Boot-Cores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fijo-Boot-Cores" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,14 +901,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fijo-Boot-Parent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -481,88 +996,89 @@
       <workItem from="1559489872133" duration="990000" />
       <workItem from="1559492302401" duration="498000" />
       <workItem from="1575128870533" duration="1676000" />
+      <workItem from="1575191309786" duration="2393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6555000" />
+    <option name="totallyTimeSpent" value="9015000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946004" weight="0.32947975" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13120951" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.09719223" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2450867" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49946004" weight="0.30289018" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.85475165" visible="true" weight="0.19075145" />
+      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49946004" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28455722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30291575" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Favorites" order="6" sideWeight="0.14524838" side_tool="true" visible="true" weight="0.19075145" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Favorites" order="6" visible="true" weight="0.13294798" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/AbstractEncryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/BigIntegerEncryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/Des3Encryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/Md5Encryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/RsaEncryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/encrypt/ShaEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -595,9 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,9 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,13 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ObjectUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -723,77 +1226,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/GlobalExceptionRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/RestControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/GlobalExceptionRegister.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/RestControllerExceptionHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/exception/Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/SystemModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/LogicModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/CustomJpaRepositoryFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/BaseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/SystemModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/LogicModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/CustomJpaRepositoryFactoryBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/Condition.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/BaseRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/annotations/EntityIdPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -801,27 +1247,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/LogicDeleteRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6475">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/LogicRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/constants/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/LogicDeleteRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/LogicRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/mapper/GenericMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -829,53 +1256,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/impl/GenericService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/LogicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/LogicController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/service/IGenericService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultUserDto.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/dto/ResultDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,23 +1289,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/filter/CsrfProtectFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/MapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/filter/CsrfProtectFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/ObjectUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/controller/GenericController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/constants/ApplicationConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="1520">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/model/GenericModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/response/JsonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -915,11 +1346,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/log/GlobalWebRequestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="-338">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/base/web/request/ReqHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/distribution/id/SnowflakeId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fijo/boot/util/captcha/Captcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
         </state>
       </provider>
     </entry>
