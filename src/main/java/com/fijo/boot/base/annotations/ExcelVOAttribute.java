@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 /**
  * 用途：标记是否导入导出的字段
  * 作者: zhangbo
- * 时间: 2018/5/29  22:24
+ * 时间: 2019/10/28  22:24
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target( { java.lang.annotation.ElementType.FIELD })

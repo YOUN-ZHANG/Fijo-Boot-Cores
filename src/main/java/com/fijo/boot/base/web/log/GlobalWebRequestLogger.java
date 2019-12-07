@@ -37,7 +37,7 @@ public class GlobalWebRequestLogger {
     /**
      *
      */
-    @Pointcut("execution(* *..web..*Controller.*(..))")
+    @Pointcut("execution(* *..*..*Controller.*(..))")
     public void webLog() { }
 
     /**

@@ -1,26 +1,26 @@
-/**
- *
- */
-package com.fijo.boot.base.exception;
+package com.fijo.boot.exceptions;
 
-import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- * 用途：异常工具类
- * 作者: zhangbo
- * 时间: 2019/10/28  21:46
+ * @ Author     ：zhangbo.
+ * @ Date       ：Created in 19:14 2019/12/1
+ * @ Description：
+ * @ Modified By：
+ * @Version:
  */
-@Slf4j
+
 public class Exceptions {
 
+    protected final static Log log = LogFactory.getLog(Exceptions.class);
+
     /**
-     * 将CheckedException转换为UncheckedException
-     * @param e Exception
-     * @return RuntimeException
+     * 将CheckedException转换为UncheckedException.
      */
     public static RuntimeException unchecked(Exception e) {
         if (e instanceof RuntimeException) {
@@ -31,9 +31,7 @@ public class Exceptions {
     }
 
     /**
-     * 将ErrorStack转化为String
-     * @param e Exception
-     * @return 异常堆栈信息
+     * 将ErrorStack转化为String.
      */
     public static String getStackTraceAsString(Exception e) {
         StringWriter stringWriter = new StringWriter();
@@ -42,13 +40,9 @@ public class Exceptions {
     }
 
     /**
-     * 判断异常是否由某些底层的异常引起
-     * @param ex Exception
-     * @param causeExceptionClasses Exception Class
-     * @return boolean
+     * 判断异常是否由某些底层的异常引起.
      */
-    @SafeVarargs // 警告: [unchecked] 参数化 vararg 类型Class<? extends Exception>的堆可能已受污染
-    public static boolean isCausedBy(Exception ex, Class<? extends Exception>... causeExceptionClasses) {
+    public static boolean isCausedBy(Exception ex, @SuppressWarnings("unchecked") Class<? extends Exception>... causeExceptionClasses) {
         Throwable cause = ex;
         while (cause != null) {
             for (Class<? extends Exception> causeClass : causeExceptionClasses) {
@@ -61,12 +55,10 @@ public class Exceptions {
         return false;
     }
 
-    public static void printException(Exception e) {
+    public static void printException(Exception e){
         ByteArrayOutputStream buf = new ByteArrayOutputStream();
         e.printStackTrace(new PrintWriter(buf, true));
         String expMsg = buf.toString();
         log.error(expMsg);
     }
-
-
 }

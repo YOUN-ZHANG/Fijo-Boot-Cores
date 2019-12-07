@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * 用途：通用实体
  * 作者: zhangbo
- * 时间: 2018/1/30  21:47
+ * 时间: 2019/10/28  21:47
  */
 @Data
 @MappedSuperclass
@@ -42,5 +42,8 @@ public abstract class GenericModel{
     private String removed; //是否删除
 
     @Transient
-    private String orderByClause;//排序问题
+    private String orderByClause;//排序
+
+    @Transient
+    private String groupByClause;//分组
 }

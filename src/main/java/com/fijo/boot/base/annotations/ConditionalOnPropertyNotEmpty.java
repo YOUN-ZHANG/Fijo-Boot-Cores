@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * 用途：判断属性是否有设置
  * 作者: zhangbo
- * 时间: 2018/8/20  11:55
+ * 时间: 2019/10/28  11:55
  */
 @Target({ ElementType.TYPE, ElementType.METHOD })
 @Retention(RetentionPolicy.RUNTIME)

@@ -9,7 +9,7 @@ import lombok.Setter;
 /**
  * 用途：自定义字段属性类型
  * 作者: zhangbo
- * 时间: 2018/1/31  14:39 
+ * 时间: 2019/10/28  14:39
  */
 public enum SysCustomFieldType implements GenericEnum, Comparable<SysCustomFieldType> {
 

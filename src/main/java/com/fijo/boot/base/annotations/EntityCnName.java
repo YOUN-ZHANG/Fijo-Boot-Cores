@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 /**
  * 用途：数据库实体中文名称
  * 作者: zhangbo
- * 时间: 2018/2/27  16:31
+ * 时间: 2019/10/28  16:31
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

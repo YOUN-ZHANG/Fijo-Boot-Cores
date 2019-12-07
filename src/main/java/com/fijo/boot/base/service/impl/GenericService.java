@@ -44,11 +44,6 @@ public class GenericService<T extends GenericModel,PK extends Serializable> impl
     }
 
     @Override
-    public int updateById(PK id) {
-        return mapper.updateById(id);
-    }
-
-    @Override
     public int batchUpdate(List<T> entitys) {
         return mapper.batchUpdate(entitys);
     }

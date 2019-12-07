@@ -46,13 +46,6 @@ public interface IGenericService <T extends GenericModel,PK extends Serializable
     int update(T entity);
 
     /**
-     * 通过主键ID更新
-     * @param id
-     * @return
-     */
-    int updateById(PK id);
-
-    /**
      * 批量更新
      * @param entitys
      * @return
