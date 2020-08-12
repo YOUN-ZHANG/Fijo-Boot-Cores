@@ -11,6 +11,7 @@ import com.fijo.boot.exceptions.Exceptions;
 import com.fijo.boot.exceptions.ExceptionsMsgAlert;
 import com.fijo.boot.exceptions.TransactionRollbackException;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -32,15 +33,11 @@ public class GenericController<T extends GenericModel, PK extends Serializable> 
 
     private IGenericService<T, PK> service;
 
-//    public GenericController(Class<T> persistentClass,IGenericService<T, PK> service) {
-//        this.service = service;
-//        this.persistentClass = persistentClass;
-//    }
     public GenericController(IGenericService<T, PK> service) {
         this.service = service;
     }
 
-    //protected Class<T> persistentClass;
+
 
     @PostMapping(value = "/query")
     @ResponseBody

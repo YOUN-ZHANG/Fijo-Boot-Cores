@@ -7,6 +7,7 @@ import javax.persistence.MappedSuperclass;
 import javax.persistence.Transient;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * 用途：通用实体
@@ -42,8 +43,24 @@ public abstract class GenericModel{
     private String removed; //是否删除
 
     @Transient
+    private String wherecondition; //自定义查询条件（单个）
+
+    @Transient
+    private String updatecondition; //自定义更新（单个）
+
+    @Transient
+    private List<String> wherelist; //自定义查询条件（多个）
+
+    @Transient
+    private List<String> updatelist; //自定义更新（多个）
+
+    @Transient
     private String orderByClause;//排序
 
     @Transient
     private String groupByClause;//分组
+
+    @Transient
+    private String limitCount;
+
 }

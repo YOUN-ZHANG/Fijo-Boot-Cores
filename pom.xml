@@ -11,69 +11,30 @@
 
   <groupId>com.fijo.boot</groupId>
   <artifactId>fijo-boot-cores</artifactId>
-  <version>0.1.2</version>
+  <version>0.2.5</version>
   <packaging>jar</packaging>
     
   <name>${project.artifactId}</name>
   <description>Fijo Spring Boot Cores</description>
 
   <properties>
-      <fijo.version>0.1.2</fijo.version>
+      <fijo.version>0.2.5</fijo.version>
   </properties>
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-redis</artifactId>
-    </dependency>
-    <!--<dependency>-->
-      <!--<groupId>org.springframework.session</groupId>-->
-      <!--<artifactId>spring-session-data-redis</artifactId>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.springframework.security.oauth.boot</groupId>-->
-      <!--<artifactId>spring-security-oauth2-autoconfigure</artifactId>-->
-      <!--<version>2.0.8.RELEASE</version>-->
-    <!--</dependency>-->
-    <!-- Spring Boot 2.0官方文档之 Actuator -->
-    <!-- https://blog.csdn.net/alinyua/article/details/80009435 -->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-aop</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-configuration-processor</artifactId>
-      <optional>true</optional>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-commons</artifactId>
     </dependency>
 
     <dependency>
       <groupId>org.mybatis.spring.boot</groupId>
       <artifactId>mybatis-spring-boot-starter</artifactId>
       <version>2.1.1</version>
-    </dependency>
-
-    <!--<dependency>-->
-      <!--<groupId>org.apache.cxf</groupId>-->
-      <!--<artifactId>cxf-spring-boot-starter-jaxws</artifactId>-->
-      <!--<version>3.2.4</version>-->
-    <!--</dependency>-->
-    <dependency>
-      <groupId>de.codecentric</groupId>
-      <artifactId>spring-boot-admin-starter-client</artifactId>
-      <version>2.0.0</version>
     </dependency>
 
     <!-- Restful Online Documents-->
@@ -104,27 +65,6 @@
       <classifier>jdk15</classifier>
     </dependency>
 
-
-    <!-- Database Support-->
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>druid-spring-boot-starter</artifactId>
-      <version>1.1.9</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.11</version>
-    </dependency>
-
-
-
-    <!-- Cache Dependencies -->
-    <dependency>
-      <groupId>org.redisson</groupId>
-      <artifactId>redisson</artifactId>
-      <version>3.10.3</version>
-    </dependency>
 
     <!-- Http Dependencies -->
     <!-- https://gitee.com/mzllon/easy-okhttp -->
@@ -188,12 +128,17 @@
       <version>1.9.5</version>
     </dependency>
 
-      <dependency>
-          <groupId>javax.persistence</groupId>
-          <artifactId>persistence-api</artifactId>
-          <version>1.0.2</version>
-      </dependency>
+    <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>persistence-api</artifactId>
+        <version>1.0.2</version>
+    </dependency>
 
+    <dependency>
+      <groupId>com.mzlion</groupId>
+      <artifactId>easy-okhttp</artifactId>
+      <version>1.1.0</version>
+    </dependency>
 
 
     <dependency>
@@ -214,6 +159,24 @@
       <url>file://${project.build.directory}/mvn-repo</url>
     </repository>
   </distributionManagement>
+
+  <!--<build>-->
+    <!--<plugins>-->
+        <!--<plugin>-->
+            <!--<groupId>org.apache.maven.plugins</groupId>-->
+            <!--<artifactId>maven-compiler-plugin</artifactId>-->
+            <!--<configuration>-->
+              <!--<source>1.8</source>-->
+              <!--<target>1.8</target>-->
+              <!--<compilerArguments>-->
+                <!--<bootclasspath>C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar</bootclasspath>-->
+              <!--</compilerArguments>-->
+            <!--</configuration>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
+  <!--</build>-->
+
+
 
   <!--<repositories>-->
 		<!--<repository>-->

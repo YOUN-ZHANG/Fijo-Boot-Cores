@@ -1,7 +1,6 @@
 package com.fijo.boot.base.service;
 
 import com.fijo.boot.base.model.GenericModel;
-
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;

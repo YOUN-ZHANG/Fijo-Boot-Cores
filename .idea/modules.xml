@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/simbest-boot-cores.iml" filepath="$PROJECT_DIR$/simbest-boot-cores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fijo-boot-cores.iml" filepath="$PROJECT_DIR$/fijo-boot-cores.iml" />
     </modules>
   </component>
 </project>
